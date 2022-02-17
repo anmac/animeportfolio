@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
+    <title>Portfolio Dinamico</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1 class="logo__title">Anmac@</h1>
+        <p class="logo__text">Web Development</p>
+      </div>
+      <form class="form">
+        <input
+          type="text"
+          class="form__search"
+          id="search"
+          placeholder="Search"
+        />
+        <button class="form__button">
+          <img
+            src="assets/icons/search.png"
+            alt="search icon"
+            class="form__search-icon"
+          />
+        </button>
+      </form>
+      <nav class="navbar" id="categories">
+        <a href="#" class="navbar__category active">All</a>
+        <a href="#" class="navbar__category">TV</a>
+        <a href="#" class="navbar__category">Movie</a>
+        <a href="#" class="navbar__category">Special</a>
+        <a href="#" class="navbar__category">OVA</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="grid" id="grid">
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="drama school seinen slice-of-life"
+          data-description="El estudioso Yatora deja una vida seca de estudio y buenos modales para una nueva pasión: la pintura. Pero liberarse de todas sus expectativas pasadas es peligroso y emocionante..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/blue-period.jpg"
+                alt="Blue Period"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Blue Period</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="mistery psychological seinen supernatural"
+          data-description="Boku dake ga Inai Machi es una serie de ciencia ficción que cuenta la historia de Satory Fujinuma, un autor de manga sin mucho éxito que sufre de un peculiar fenómeno conocido como Resucitación..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/boku-dake.jpg"
+                alt="Boku Dake"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Boku dake ga Inai Machi
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy school harem romance shounen"
+          data-description="Yuiga Naruyuki está en su último año de preparatoria, y para poder conseguir la recomendación VIP que le garantizaría una beca completa para la universidad, el joven deberá ser tutor de unas compañeras que tienen problemas para entrar en la universidad que quieren..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/bokutachi.jpg"
+                alt="Bokutachi"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Bokutachi wa Benkyou ga Dekinai
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="comedy school romance"
+          data-description="En Fujisawa, donde los cielos son brillantes y los mares brillan, Sakuta Azusagawa está en su segundo año de secundaria. Sus días felices con su novia y estudiante de último año, Mai Sakurajima, se ven interrumpidos con la aparición de su primer enamoramiento, Shouko Makinohara..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/anime-de-la-conejita.jpg"
+                alt="Seishun Buta Yarou"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="comedy ecchi fantasy games supernatural"
+          data-description="No Game No Life narra las aventuras de Sora y Shiro, unos “hermanos” bastante peculiares, quienes se sumergen en un mundo llamado Disboard y que está plagado de referencias a videojuegos y juegos en general..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/nogame-nolife-movie.jpg"
+                alt="No Game No Life: Zero"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                No Game No Life: Zero
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="drama school shounen"
+          data-description="La historia gira en torno a Shoko Nishimiya, una estudiante de primaria que es sorda de nacimiento y que al cambiarse de colegio comienza a recibir acoso escolar por parte de sus nuevos compañeros. Uno de los principales responsables es Ishida Shouya quien termina por forzar que Nishimiya se cambie de escuela..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/koe-no-katachi.jpg"
+                alt="Koe no Katachi"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Koe no Katachi</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="drama school romance supernatural"
+          data-description="La “historia de milagros y amor” gira en torno a Mitsuha y Taki. Mitsuha es una estudiante de secundaria que vive en un pueblo rural situado en las montañas. Su padre es el alcalde y no pasa mucho por casa, ella vive con su hermana pequeña estudiante de primaria y su abuela..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kimi-no-nawa.jpg"
+                alt="Kimi no Na wa"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Kimi no Na wa</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="action adventure comedy drama fantasy shounen"
+          data-description="La película narra la aventura de los Mugiwara en Gran Tesoro, la ciudad de entretenimiento más grande del mundo y que está bajo el gobierno de Gildo Tesoro, también conocido como Rey del Casino..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/one-piece-film-gold.jpg"
+                alt="One Piece Film: Gold"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                One Piece Film: Gold
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="fantasy supernatural"
+          data-description="Segunda pelicual de kyoukai-no-kanata"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kyoukai-no-kanata-movie-mirai-hen.jpg"
+                alt="Kyoukai no Kanata Movie: I'll Be Here - Mirai-hen"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kyoukai no Kanata Movie: I'll Be Here - Mirai-hen
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="special"
+          data-tags="action comedy fantasy magic shounen"
+          data-description="La historia gira entorno a Asta, un chico bullicioso y sin aparente talento mágico y Yuno, su amigo y rival, el cual es un genio en el uso de la magia. Ambos tienen sueños de convertirse en el Rey Mago, para cumplir la promesa hecha por ambos durante su infancia, uno de los dos debe ser el mago más fuerte."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/black-clover-special.jpg"
+                alt="Black Clover Ova"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Black Clover Ova
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action adventure comedy fantasy romance"
+          data-description="Comúnmente conocido como el “Calabozo”, la ciudad de Orario posee bajo tierra un enorme laberinto. Su extraño nombre provoca emoción, ilusiones de honor, y esperanzas de un romance con una bella chica..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/danmachi.jpg"
+                alt="Danmachi"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="drama school romance shounen"
+          data-description="Natsuo es un chico de preparatoria que está perdidamente enamorado de su alegre y popular maestra llamada Hina. Sin embargo, un día en una reunión conoce a una chica malhumorada llamada Rui y termina durmiendo con ella..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/domestic-na-kanojo.jpg"
+                alt="Domestic na Kanojo"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Domestic na Kanojo
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy drama romance"
+          data-description="Masamune Izumi es un estudiante de instituto además de un autor de novelas ligeras con una hermana, Sagiri Izumi. Sagiri es una hikikomori que no sale que su cuarto y a la que Masamune tiene que prepararle la comida a diario cuando ésta golpea el suelo de su habitación..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/eromanga-sensei.jpg"
+                alt="Eromanga-sensei"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Eromanga-sensei
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="drama music romance yaoi"
+          data-description="Ritsuka Uenoyama es un joven que se aficionó a la guitarra siendo muy joven y tras mucho esfuerzo, consiguió alcanzar el nivel que quería, pero la guitarra que tanto amaba ha perdido su brillo y no le divierte ni le apasiona como antes..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/given.jpg"
+                alt="Given"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Given</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action ecchi mistery seinen supernatural"
+          data-description="Shuichi Kagaya es un chico ordinario de preparatoria en una pequeña y aburrida ciudad. Sin embargo, cuando una chica se ve atrapada en un incendio en un almacén, Shuichi usa su poder misterioso, transformarse en un perro peludo de gran tamaño con un enorme revólver y una cremallera en la espalda..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/gleipnir.jpg"
+                alt="Gleipnir"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Gleipnir</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy school harem romance shounen"
+          data-description="Fuutarou Uesugi es un estudiante de segundo año de preparatoria/instituto cuya familia siempre ha sido muy pobre. Un día recibe una suculenta oferta de trabajo como tutor a medio tiempo..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/gotoubun.jpg"
+                alt="Gotoubun"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Gotoubun no Hanayome
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action seinen"
+          data-description="La historia se centra en un glóbulo rojo novato, miembro de las otras células en el cuerpo. ¡Pero algo anda mal! Las hormonas del estrés le siguen gritando que aceleren cada vez más el ritmo..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/hataraku-saibou.jpg"
+                alt="Hataraku Saibou Black"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Hataraku Saibou Black (TV)
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="drama school romance"
+          data-description="Tomozaki es uno de los mejores jugadores de videojuegos del mundo, y para él, la realidad es el peor juego de todos: no hay un objetivo claro para ganar, el equilibrio es un asco y nada tiene sentido..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/jaku-chara.jpg"
+                alt="Jaku-Chara"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Jaku-Chara Tomozaki-kun
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy school psychological romance seinen"
+          data-description="¡Todo vale en el amor y en la guerra! Dos genios. Dos cerebros. Dos corazones. Una batalla. ¡¿Quién declarará primero su amor?! Kaguya Shinomiya y Miyuki Shirogane son dos prodigios de gran inteligencia y quienes controlan el consejo de estudiantes de su prestigiosa academia, lo que las convierte en la crème de la crème de la élite..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kaguya-sama-love-is-war.jpg"
+                alt="Kaguya-sama Love is War"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="history mistery psychological shounen"
+          data-description="El protagonista de la historia es James Moriarty, el famoso antagonista de la serie Sherlock Holmes de Sir Arthur Conan Doyle. En el manga, es un huérfano que asume el nombre de William James Moriarty cuando él y su hermano menor son adoptados en la familia Moriarty..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/yuukoku-no-moriarty.jpg"
+                alt="Yuukoku no Moriarty"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Yuukoku no Moriarty
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy school romance shounen"
+          data-description="Aunque admirada en la escuela por su amabilidad y destreza académica, la estudiante de preparatoria Kyouko Hori ha estado escondiendo otro lado de ella. Con sus padres a menudo fuera de casa debido al trabajo, Hori tiene que cuidar de su hermano menor y hacer las tareas del hogar, sin tener tiempo para socializar fuera de la escuela..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/horimiya.jpg"
+                alt="Horimiya"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Horimiya</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="action demons history shounen supernatural"
+          data-description="Después de que una serie de misteriosas desapariciones comienzan a plagar un tren, los múltiples intentos del Cuerpo de Cazadores de Demonios para remediar el problema resultan infructuosos. Para evitar más bajas, el Pilar de las Llamas, Kyoujuro Rengoku, se encarga de eliminar la amenaza..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kimetsu-no-yaiba-mugen.jpg"
+                alt="KNY Mugen Ressha-hen"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kimetsu no Yaiba Movie: Mugen Ressha-hen
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="drama music romance yaoi"
+          data-description="Aquel acorde hizo vibrar el aire polvoriento y el tímpano de los dos. Allí surge… nuestra música. La voz de Mafuyu penetra hasta lo más profundo para quedarse allí. Es un arma peligrosa, es una locura..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/given-movie.jpg"
+                alt="Given Movie"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Given Movie</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="adventure comedy fantasy magic parodie supernatural"
+          data-description="Kazuma Satou es un chico de preparatoria otaku y hikikomori que no suele salir de casa, pero cuando lo hace, un fatídico (y ridículo) accidente acaba con su vida..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/konosuba-movie.jpg"
+                alt="Konosuba"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kono Subarashii Sekai ni Shukufuku wo!: Kurenai Densetsu
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="drama fantasy romance"
+          data-description="La historia se en centra en el estudiante de preparatoria Hodaka, quien abandona su hogar en una isla aislada y se muda a Tokio, pero inmediatamente pierde todo su dinero. Ahora, viviendo sus días en aislamiento, finalmente encuentra un trabajo como escritor para una revista..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/tenki-no-ko.jpg"
+                alt="Tenki no Ko"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Tenki no Ko</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="special"
+          data-tags="action adventure fantasy harem"
+          data-description="Specials"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/arifureta-special.jpg"
+                alt="Arifureta Specials"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Arifureta Shokugyou de Sekai Saikyou Specials
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="romance ecchi"
+          data-description="La historia gira en torno a un asalariado que tiene la oportunidad de encontrarse con una chica llamada Ai. Comienzan a verse cada lunes en el tren, y ..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/getsuyoubi-no-tawawa.jpg"
+                alt="Getsuyoubi no Tawawa"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Getsuyoubi no Tawawa
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="comedy ecchi romance"
+          data-description="Relata la historia de los encuentros de un asalariado con sus compañeras de trabajo y sus sentimientos por él."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/ganbare-douki-chan.jpg"
+                alt="Ganbare Douki-chan"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Ganbare Douki-chan
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="action drama seinen supernatural superpowers"
+          data-description="Muy por encima del reino del hombre, los dioses del mundo se han reunido para decidir sobre un solo asunto: la existencia continua de la humanidad. Bajo la cabeza de Zeus, las deidades de la Antigua Grecia, la mitología nórdica y el hinduismo, entre otras, convocan asamblea cada mil años para decidir el destino de la humanidad."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/shuumatsu-no-valkyrie.jpg"
+                alt="Shuumatsu no Valkyrie"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Shuumatsu no Valkyrie
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="ecchi romance"
+          data-description="Segunda Temporada de Getsuyoubi no Tawawa"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/getsuyoubi-no-tawawa-2.jpg"
+                alt="Getsuyoubi no Tawawa 2"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Getsuyoubi no Tawawa 2
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="comedy romance"
+          data-description="Tatsu, un infame y temido líder yakuza apodado “El Dragón Inmortal”, se retira del sindicato del crimen y se convierte en un amo de casa para ayudar a su esposa Miku..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/gokushufudou.jpg"
+                alt="Gokushufudou"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Gokushufudou</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="drama fantasy psychological"
+          data-description="El episodio girará en torno a Emilia y su reunión con Puck durante el viaje a la Mansión Roswaal para ser candidata a la elección real."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/rezero-kara.jpg"
+                alt="ReZero Kara"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                ReZero kara Hajimeru Isekai Seikatsu - Hyouketsu no Kizuna
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="comedy deport drama school shounen"
+          data-description="Historia paralela"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/haikyuu-riku-vs-kuu.jpg"
+                alt="Haikyuu!!: Riku vs. Kuu"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Haikyuu!!: Riku vs. Kuu
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="comedy school romance"
+          data-description="Ova de la segunda temporada"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/yahari-zoku-ova.jpg"
+                alt="Yahari Ore Zoku Ova"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Yahari Ore no Seishun Love Comedy wa Machigatteiru. Zoku OVA
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="action science-fiction comedy parodie seinen supernatural superpowers"
+          data-description="Episodio especial One Punch Man"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/one-punch-man-ova.jpg"
+                alt="One Puch Man Road to Hero"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                One Punch Man: Road to Hero
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="ova"
+          data-tags="action psychological shounen supernatural"
+          data-description="La historia de Mirai Nikki Redial se sitúa en el tercer universo, donde Yuno Gasai ha recuperado sus recuerdos y marcha a su encuentro con Yukiteru Amano."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/mirai-nikki-ova.jpg"
+                alt="Mirai Nikki Redial"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Mirai Nikki Redial
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="magic military"
+          data-description="Año 1926. El Batallón Aéreo de Magos 203 del Ejército Imperial, comandado por la Mayor Tanya von Degurechaff, se alzó con la victoria en la batalla del sur contra la República..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/youjo-senki-movie.jpg"
+                alt="Youjo Senki Movie"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Youjo Senki Movie
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="movie"
+          data-tags="action fantasy supernatural"
+          data-description="Primera pelicula de kyoukai-no-kanata"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kyoukai-no-kanata-movie-kako-hen.jpg"
+                alt="Kyoukai no Kanata Movie: I'll Be Here - Kako-hen"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kyoukai no Kanata Movie: I'll Be Here - Kako-hen
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="special"
+          data-tags="comedy"
+          data-description="Serie de cortos de Kobayashi-san Chi no Maid Dragon S"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kobayashi-san-special.jpg"
+                alt="Kobayashi-san Special"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kobayashi-san Chi no Maid Dragon S Mini Dragon
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="special"
+          data-tags="action adventure comedy drama fantasy shounen superpowers"
+          data-description="Especial de televisión que resume los hechos que tuvieron lugar en la Isla del Cielo."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/one-piece-sorajima.jpg"
+                alt="One Piece Sorajima"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                One Piece: Episode of Sorajima
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="special"
+          data-tags="school romance"
+          data-description="Arco final de ReLIFE."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/relife-kanketsu-hen.jpg"
+                alt="ReLIFE"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                ReLIFE: Kanketsu-hen
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="special"
+          data-tags="action adventure comedy drama fantasy shounen superpowers"
+          data-description="Especial por el aniversario número 20."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/one-piece-east-blue.jpg"
+                alt="One Piece: East Blue"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                One Piece: Episodio del East Blue
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy romance"
+          data-description="Después de descubrir que trabajan en la misma compañía, un otaku gamer y una fujoshi se reúnen por primera vez desde la secundaria. Después de algunas sesiones de bebidas después del trabajo, empiezan a salir, sin embargo, ¿esta será la relación perfecta para los dos?"
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/wotaku.jpg"
+                alt="Wotaku"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Wotaku ni Koi wa Muzukashii
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="drama romance seinen"
+          data-description="Después de la universidad, Rikuo Uozumi, un niño sin mucha ambición en la vida, toma un trabajo en una tienda de conveniencia. Los días pasan sin incidentes para Rikuo hasta que conoce a su ex novia y compañera de clase, pero especialmente gracias a la inusual Haru Nonaka y su mascota cuervo ..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/yesterday.jpg"
+                alt="Yesterday"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Yesterday wo Utatte
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy school romance"
+          data-description="La historia tiene lugar en Koudo Ikusei, la escuela de prestigio por excelencia que cuenta con instalaciones de última generación en las que casi el 100% de los alumnos pueden ir a la universidad y encontrar trabajo..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/youkoso.jpg"
+                alt="Youkoso"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV)
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy deport drama school shounen"
+          data-description="Shoyo Hinata ha querido jugar al voleibol desde que vio triunfar a un jugador de pequeña estatura en el Torneo Nacional cuando estaba en primaria. Por desgracia, cuando finalmente consiguió formar un equipo fue aplastado por su rival Tobio Kageyama..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/haikyuu.jpg"
+                alt="Haikyuu"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Haikyuu!!: To the Top
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action adventure comedy drama fantasy shounen superpowers"
+          data-description="Una historia épica de piratas, donde narra la historia de Monkey D. Luffy quien cuado tenia 7 años, comió accidentalmente una Akuma no mi(Futa del diablo) la cual le dio poderes de goma. Por otra parte Gol D. Roger conocido como El rey de los Piratas quien fuera ejecutado por la Marine, habló antes de morir, acerca de su famoso tesoro One Piece escondido en la Gran line..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/one-piece.jpg"
+                alt="One Piece"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">One Piece</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action demons history shounen supernatural"
+          data-description="Estamos en la era Taisho de Japón. Tanjiro, un joven que se gana la vida vendiendo carbón, descubre un día que su familia ha sido asesinada por un demonio. Para empeorar las cosas, su hermana menor Nezuko, la única superviviente de la masacre, ha sufrido una transformación en demonio..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kimetsu-no-yaiba.jpg"
+                alt="Kimetsu no Yaiba"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kimetsu no Yaiba
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action comedy school shounen superpowers"
+          data-description="Las personas no nacen igual. El protagonista de esta historia es uno de esos casos raros que nacen sin superpoderes, pero esto no le impedirá perseguir su sueño: ser un gran héroe como el legendario All-Might..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/boku-no-hero.jpg"
+                alt="Boku no Hero"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Boku no Hero Academia
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action drama school shounen"
+          data-description="Mientras miraba las noticias, Takemichi Hanagaki se entera de que su novia de secundaria, Hinata Tachibana, ha muerto. La única chica que alguna vez se fijó en él fue asesinada por un grupo de criminales conocidos como la Banda Tokyo Manji..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/tokyo-revengers.jpg"
+                alt="Tokyo Revengers"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Tokyo Revengers
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="adventure science-fiction shounen"
+          data-description="Un fatídico día, toda la humanidad quedó petrificada por un destello de luz cegadora. Después de varios milenios, el estudiante de instituto Taiju se despierta y se encuentra perdido en un mundo de estatuas..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/dr-stone.jpg"
+                alt="Dr. Stone"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Dr. Stone: Stone Wars
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="psychological shounen supernatural suspense"
+          data-description="Es el año 20XX. La Tierra fue asediada por monstruos autodeclarados como “enemigos de la humanidad”. Para afrontar esta amenaza, se establecieron escuelas especiales que entrenan adolescentes con extraordinarias habilidades..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/munou-na-nana.jpg"
+                alt="Munou na Nana"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Munou na Nana</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="fantasy supernatural"
+          data-description="La historia sigue a un muchacho de instituto llamado Akihito Kanbara que aunque parece normal, es un medio yomu, lo que le hace invulnerable a las heridas debido a que se cura muy rápido..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kyoukai-no-kanata.jpg"
+                alt="Kyoukai no Kanata"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kyoukai no Kanata
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="science-fiction drama school romance shoujo"
+          data-description="El primer día de clase, Naho recibe una misteriosa carta de quien dice ser su yo del futuro, en la que se predice de forma exacta cada cosa que está a punto de pasarle. Además, la remitente le aconseja no llevar a cabo determinadas acciones..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/orange.jpg"
+                alt="Orange"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Orange</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy drama school romance"
+          data-description="La comedia romántica gira en torno a un estudiante de instituto bastante antisocial llamado Hachiman Hikigaya y que tiene una distorsionada visión de la vida, aparte de no tener amigos ni mucho menos novia..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/oregairu.jpg"
+                alt="Oregairu"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Yahari Ore no Seishun Love Come wa Machigatteiru
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy ecchi school harem romance"
+          data-description="La vida de Tomoya Aki, un otaku de preparatoria que trabaja a medio tiempo para rellenar su colección de BDs. Con bastante suerte, se encuentra primero con Megumi Kato, la chica más hermosa que había visto..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/saenai.jpg"
+                alt="Saenai"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Saenai Heroine no Sodatekata
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action adventure fantasy games romance"
+          data-description="Escapar es imposible hasta terminar el juego; un game over significaría una verdadera muerte. Sin saber la verdad de la siguiente generación del Multijugador Masivo Online, 'Sword Art Online(SAO)', con 10 mil usuarios unidos juntos abriendo las cortinas para esta cruel batalla a muerte..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/sao-underworld.jpg"
+                alt="Kirito Hacks Locos"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Sword Art Online: Alicization - War of Underworld
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action comedy ecchi school seinen supernatural"
+          data-description="Un chico completamente ordinario de nombre Kazuya Kagami conoce un día a Kiriha, una chica hermosa que viste un kimono y que aparece enfrente de él de repente. Aunque se supone que es su primer encuentro, ella le dice: ‘tiempo sin verte’..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/tsugumomo.jpg"
+                alt="Tsugumomo"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Tsugumomo</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action adventure history seinen"
+          data-description="Thorfinn, hijo de uno de los guerreros más grandes de los vikingos, se encuentra entre los mejores luchadores de la alegre banda de mercenarios dirigida por el astuto Askeladd."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/vinland-saga.jpg"
+                alt="Vinland Saga"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Vinland Saga</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="action drama mistery psychological seinen supernatural terror"
+          data-description="Extraños asesinatos se están sucediendo uno tras otro en Tokyo. Debido a las pruebas encontradas en las escenas, la policía concluye que los ataques son obra de ghouls que se comen a las personas..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kanikas.jpg"
+                alt="Tokyo Ghoul"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Tokyo Ghoul</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy school romance shounen"
+          data-description="En Japón, los solitarios tienen una nueva opción; ¡un servicio online para rentar padres, hijos, e incluso novias! Cuando el amor platónico de Kazuya lo rechaza, él decide que está lo suficientemente desesperado para probar el servicio, y queda impactado cuando descubre lo hermosa que es su novia de alquiler..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/kanojo-okarishimasu.jpg"
+                alt="Kanojo Okarishimasu"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Kanojo, Okarishimasu
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="drama school romance"
+          data-description="Las mentiras están prohibidas. El amor está incluso más prohibido. En Japón, en un tiempo no tan lejano, tu futuro esposo o esposa es seleccionado por el gobierno a los 16 años de edad..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/koi-to-uso.jpg"
+                alt="Koi to Uso"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">Koi to Uso</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div
+          class="item"
+          data-category="tv"
+          data-tags="comedy romance"
+          data-description="Una vez que te enamoras de alguien, no puedes detener el amor. Un extraño evento provoca el encuentro entre Ryou Amakusa, un hombre de negocios de alto nivel y muy mujeriego, y la mejor amiga de su hermana, la estudiante de preparatoria Ichika Arima..."
+        >
+          <div class="item-content">
+            <figure class="anime">
+              <img
+                src="assets/images/koi-to-yobu.jpg"
+                alt="Koi to Yobu"
+                class="anime__img"
+              />
+              <figcaption class="anime__description">
+                Koi to Yobu ni wa Kimochi Warui
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="overlay" id="overlay">
+        <div class="anime anime--popup">
+          <button id="anime__close-button" class="anime__close-button">
+            <img src="assets/icons/close-circle-purple.png" alt="Close Icon" />
+          </button>
+          <img src="" alt="" class="anime__img anime__img--popup" />
+          <p class="anime__description anime__description--popup"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="social-media">
+        <div class="social-media__link">
+          <a href="http://www.twitter.com" target="_blank" class="media"
+            ><img
+              src="assets/icons/twitter.png"
+              alt="twitter icon"
+              class="social-media__icon"
+          /></a>
+        </div>
+        <div class="social-media__link">
+          <a href="http://www.facebook.com" target="_blank" class="media"
+            ><img
+              src="assets/icons/facebook.png"
+              alt="facebook icon"
+              class="social-media__icon"
+          /></a>
+        </div>
+        <div class="social-media__link">
+          <a href="http://www.instagram.com" target="_blank" class="media"
+            ><img
+              src="assets/icons/instagram.png"
+              alt="instagram icon"
+              class="social-media__icon"
+          /></a>
+        </div>
+        <div class="social-media__link">
+          <a href="http://www.github.com/anmac" target="_blank" class="media"
+            ><img
+              src="assets/icons/github.png"
+              alt="github icon"
+              class="social-media__icon"
+          /></a>
+        </div>
+      </div>
+      <div class="footer__description">
+        <p>
+          Created by <a href="#">Miguel Maza</a> -
+          <a href="https://www.github.com/anmac">Anmac@</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="main/main.js"></script>
+  </body>
+</html>

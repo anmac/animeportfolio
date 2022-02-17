@@ -1,0 +1,265 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
+  max-width: 850px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/* ------ */
+/* Header */
+/* ------ */
+
+header {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo__title,
+.logo__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo__text {
+  color: #9b9b9b;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form__search {
+  width: 70%;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-color: #fff;
+  text-align: inherit;
+  font-size: 16px;
+  outline: none;
+}
+
+.form__button {
+  position: absolute;
+  top: 10px;
+  right: 135px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.form__search-icon {
+  height: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar__category {
+  margin: 10px 20px;
+  color: #9b9b9b;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.3s linear 0s;
+}
+
+.navbar__category.active {
+  color: #000;
+}
+
+/* ---- */
+/* GRID */
+/* ---- */
+
+.grid {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  opacity: 0;
+  transition: opacity 0.5s linear 0.5s;
+}
+
+.grid.images-loaded {
+  opacity: 1;
+}
+
+.item {
+  position: absolute;
+  display: block;
+  width: calc(33.33% - 20px);
+  width: 260px;
+  height: 420px;
+  margin: 10px;
+  padding: 0;
+}
+
+.item-content {
+  position: relative;
+}
+
+.anime {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  position: relative;
+  width: 260px;
+  height: auto;
+  margin: 0;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.anime--popup {
+  cursor: auto;
+}
+
+.anime__img {
+  width: 260px;
+  height: 370px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 6px solid #fff;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.anime__img--popup {
+  max-width: 100%;
+  border: none;
+  box-shadow: none;
+}
+
+.anime__description {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.anime__description--popup {
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 90%;
+  background-color: #fff;
+}
+
+.anime__close-button {
+  position: absolute;
+  top: -30px;
+  right: -40px;
+  border: none;
+  background: transparent;
+}
+
+.anime__close-button img {
+  width: 30px;
+  cursor: pointer;
+}
+
+/* ------- */
+/* Overlay */
+/* ------- */
+
+.overlay {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay.active {
+  display: flex;
+}
+
+/* ------ */
+/* Footer */
+/* ------ */
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.social-media__link {
+  margin: 20px;
+  transition: 0.3s ease all;
+}
+
+.social-media__link:hover .social-media__icon {
+  animation: icon 0.5s ease;
+}
+
+.social-media__icon {
+  width: 60px;
+}
+
+@keyframes icon {
+  from {
+    transform: rotate3d(0, 0, 0, 0);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+.footer__description {
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #c13584;
+}
+
+.footer__description a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__description a:hover {
+  text-decoration: underline;
+}
+
+/* ------------ */
+/* Mediaqueries */
+/* ------------ */
+
+@media screen and (max-width: 700px) {
+  .item {
+    width: calc(50% - 20px);
+  }
+
+  .form__search {
+    width: 100%;
+  }
+}
